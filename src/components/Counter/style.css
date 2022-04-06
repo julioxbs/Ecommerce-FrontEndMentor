@@ -1,0 +1,39 @@
+.input__counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: hsl(25, 100%, 94%);
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.value {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-buy {
+    width: 100%;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem 0;
+    margin: 1rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s;
+}
+
+.btn-buy:hover {
+    opacity: 0.5;
+}
+
+.test {
+    filter: #fff;
+}

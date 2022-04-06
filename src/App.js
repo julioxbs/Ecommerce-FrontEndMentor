@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Description from './components/Description/Description';
+import Nav from './components/Navigations/Nav';
+import Slider from './components/Slider/Slider';
+import './global.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+export default function App() {
+  return(
+    <>
+      <Nav />
+      <div className='d-md-flex container-md p-0 gap-5'>
+        <Slider />
+        <Description />
+      </div>
+    </>
   );
 }
-
-export default App;
